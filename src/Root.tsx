@@ -1,24 +1,21 @@
-import {Composition} from 'remotion';
-import {MyComposition, myCompSchema} from './Composition';
-import './style.css';
+import { FC } from "react";
+import { Composition } from "remotion";
+import Intro from "./compositions/Intro";
+import "./styles/global.css";
 
-export const RemotionRoot: React.FC = () => {
-	return (
-		<>
-			<Composition
-				id="MyComp"
-				component={MyComposition}
-				durationInFrames={240}
-				fps={30}
-				width={1280}
-				height={720}
-				schema={myCompSchema}
-				defaultProps={{
-					titleText: 'Welcome to Remotion with Tailwind CSS',
-					titleColor: '#000000',
-					logoColor: '#00bfff',
-				}}
-			/>
-		</>
-	);
+const RemotionRoot: FC = () => {
+    return (
+        <>
+            <Composition
+                id="Intro"
+                component={Intro}
+                durationInFrames={460}
+                fps={30}
+                width={1280}
+                height={720}
+            />
+        </>
+    );
 };
+
+export default RemotionRoot;
