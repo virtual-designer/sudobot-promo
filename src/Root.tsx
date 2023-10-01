@@ -1,4 +1,5 @@
 import "@fontsource/quicksand";
+import "@fontsource/roboto";
 import { FC } from "react";
 import { Composition } from "remotion";
 import Main from "./compositions/Main";
