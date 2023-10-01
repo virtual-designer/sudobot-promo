@@ -12,8 +12,8 @@ const RemotionRoot: FC = () => {
                 component={Main}
                 durationInFrames={2500}
                 fps={60}
-                width={1280}
-                height={720}
+                width={1920}
+                height={1280}
             />
         </>
     );
