@@ -55,7 +55,7 @@ const WhySudoBot: FC = () => {
             ></div>
 
             <div
-                className="grid grid-cols-3 absolute bottom-[150px] left-[20px] h-[200px]"
+                className="grid grid-cols-3 absolute bottom-[215px] left-[20px] h-[200px]"
                 style={{
                     transform: `translateX(${interpolate(
                         frame,

@@ -21,6 +21,7 @@
         }
     },
     "dependencies": {
+        "@fontsource/quicksand": "^5.0.8",
         "@remotion/bundler": "4.0.43",
         "@remotion/cli": "4.0.43",
         "@remotion/zod-types": "4.0.43",

@@ -24,7 +24,7 @@ const Header: FC<
 };
 
 const Body: FC<PropsWithChildren> = ({ children }) => {
-    return <div className="px-4 text-xl pb-4">{children}</div>;
+    return <div className="px-4 text-2xl pb-4">{children}</div>;
 };
 
 Card.Header = Header;

@@ -1,3 +1,4 @@
+import "@fontsource/quicksand";
 import { FC } from "react";
 import { Composition } from "remotion";
 import Main from "./compositions/Main";

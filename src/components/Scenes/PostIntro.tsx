@@ -56,7 +56,7 @@ const PostIntro: FC = () => {
                     opacity: slideRightOpacity,
                     transform: `translateX(${-50}%)`,
                 }}
-                className="absolute bottom-[100px] left-[50%] w-[92%] h-[150px] overflow-y-hidden"
+                className="absolute bottom-[100px] left-[50%] w-[92%] h-[150px] overflow-y-hidden  overflow-x-hidden"
             >
                 <div
                 // style={{
@@ -64,7 +64,7 @@ const PostIntro: FC = () => {
                 // }}
                 >
                     {frame < 220 && (
-                        <h2 className="text-[3.4rem] text-center">
+                        <h2 className="text-[3.4rem] text-center flex items-center flex-wrap justify-center">
                             <TextWordPopIn
                                 children={[
                                     ..."Struggling to Effectively Moderate Your"
@@ -92,7 +92,7 @@ const PostIntro: FC = () => {
                         <span className="text-blue-500">SudoBot</span>.
                     </h2>  */}
 
-                    <h2 className="text-[3.4rem] text-center">
+                    <h2 className="text-[3.4rem] text-center flex items-center flex-wrap justify-center">
                         <TextWordPopIn
                             children={[
                                 ..."Power up your server's moderation with"
