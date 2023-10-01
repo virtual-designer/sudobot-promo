@@ -1,17 +1,10 @@
 .main {
-    /* background: conic-gradient(
-        #17d49e,
-        #19dafa,
-        #19dafa,
-        #007bff,
-        #007bff,
-        #17d49e
-    ); */
-    /* background: radial-gradient(circle at top left, #00b7ff, #007bff, #60a0e4); */
+    background: #000;
 }
 
 .content {
     z-index: 1;
     height: 100%;
     width: 100%;
+    color: #fff;
 }

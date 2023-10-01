@@ -1,16 +1,16 @@
 import { FC } from "react";
 import { Composition } from "remotion";
-import Intro from "./compositions/Intro";
+import Main from "./compositions/Main";
 import "./styles/global.css";
 
 const RemotionRoot: FC = () => {
     return (
         <>
             <Composition
-                id="Intro"
-                component={Intro}
-                durationInFrames={460}
-                fps={30}
+                id="Main"
+                component={Main}
+                durationInFrames={2500}
+                fps={60}
                 width={1280}
                 height={720}
             />

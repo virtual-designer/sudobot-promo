@@ -11,5 +11,10 @@ body {
 h1 {
     font-size: 6rem;
     font-weight: 500;
+}
+
+h1,
+h2,
+.theme-font {
     font-family: "Quicksand";
 }
